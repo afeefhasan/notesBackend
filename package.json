@@ -1,0 +1,43 @@
+{
+  "name": "notes-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "bcrypt": "^5.0.0",
+  "bcryptjs": "^2.4.3",
+  "body-parser": "^1.19.0",
+  "concurrently": "^6.0.0",
+  "cors": "^2.8.5",
+  "dotenv": "^8.2.0",
+  "express": "^4.17.1",
+  "express-mongo-sanitize": "^2.0.2",
+  "express-rate-limit": "^5.2.6",
+  "express-validator": "^6.9.2",
+  "helmet": "^4.4.1",
+  "https": "^1.0.0",
+  "jsonwebtoken": "^8.5.1",
+  "mongofileupload": "^1.0.1",
+  "mongoose": "^5.11.17",
+  "multer": "^1.4.2",
+  "multer-gridfs-storage": "^4.2.0",
+  "nodemon": "^2.0.7",
+  "qrcode": "^1.4.4",
+  "sed": "0.0.2",
+  "speakeasy": "^2.0.0",
+  "stripe": "^8.138.0",
+  "xss-clean": "^0.1.1",
+  "yarn": "^1.22.10",
+  "dependencies": {
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "helmet": "^4.6.0",
+    "mongoose": "^5.13.6"
+  }
+}
